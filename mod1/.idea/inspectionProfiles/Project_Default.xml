@@ -1,0 +1,36 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W605" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="list.__getitem__" />
+          <option value="currency_to_rub" />
+          <option value="salary" />
+          <option value="salaryVacName" />
+          <option value="numbVacancies" />
+          <option value="vacNum_name" />
+          <option value="head" />
+          <option value="salary_city" />
+          <option value="vacancies_number_of_vacancy_name" />
+          <option value="salary_of_vacancy_name" />
+          <option value="vacancies_number" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
