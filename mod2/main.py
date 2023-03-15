@@ -28,12 +28,34 @@ def get_summary_rss(x):
 
 print('\n'.join((get_summary_rss("output_file.txt"))))
 
+"""
+Задание 3
+"""
+def decoder(cipher):
+    result = []
 
-app = Flask(__name__)
+    for i in cipher:
+        result.append(i)
+
+        if len(result) > 2 and result[-1] == '.' and result[-2] == '.':
+            result.pop()
+            result.pop()
+            if len(result) > 0:
+                result.pop()
+
+    result = ''.join(x for x in result if x != '.')
+    return result
+
+
+print(decoder(input()))
+
 
 """
 4 Задание
 """
+
+
+app = Flask(__name__)
 @app.route("/hello-world/<username>")
 def hello(username) -> str:
     weekday = datetime.today().weekday()
