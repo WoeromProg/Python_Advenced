@@ -46,7 +46,7 @@ def decoder(cipher):
     result = ''.join(x for x in result if x != '.')
     return result
 
-print(decoder(input("Введите шифр (3 задание):")))
+print("абра.." + " -> " + decoder("абра.."))
 
 
 """
