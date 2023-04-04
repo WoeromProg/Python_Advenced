@@ -1,0 +1,65 @@
+22:00:59 - dividar - INFO - Started divider serverd
+22:00:59 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+22:00:59 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+22:00:59 - werkzeug - INFO -  * Restarting with stat
+22:01:01 - dividar - INFO - Started divider serverd
+22:01:01 - werkzeug - WARNING -  * Debugger is active!
+22:01:01 - werkzeug - INFO -  * Debugger PIN: 754-510-235
+22:01:04 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2023 22:01:04] "POST /divide/ HTTP/1.1" 200 -
+22:22:19 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikit\\Documents\\GitHub\\Python_Advenced\\mod6\\task2.py', reloading
+22:22:19 - werkzeug - INFO -  * Restarting with stat
+22:22:22 - dividar - INFO - Started divider serverd
+22:22:22 - werkzeug - WARNING -  * Debugger is active!
+22:22:22 - werkzeug - INFO -  * Debugger PIN: 754-510-235
+14:21:24 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikit\\Documents\\GitHub\\Python_Advenced\\mod6\\task2.py', reloading
+14:21:24 - werkzeug - INFO -  * Restarting with stat
+14:21:28 - dividar - INFO - Started divider serverd
+14:21:28 - werkzeug - WARNING -  * Debugger is active!
+14:21:28 - werkzeug - INFO -  * Debugger PIN: 754-510-235
+14:22:43 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikit\\Documents\\GitHub\\Python_Advenced\\mod6\\task2.py', reloading
+14:22:43 - werkzeug - INFO -  * Restarting with stat
+14:22:44 - dividar - INFO - Started divider serverd
+14:22:44 - werkzeug - WARNING -  * Debugger is active!
+14:22:44 - werkzeug - INFO -  * Debugger PIN: 754-510-235
+14:24:58 - dividar - INFO - Started divider serverd
+14:24:58 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+14:24:58 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+14:24:58 - werkzeug - INFO -  * Restarting with stat
+14:25:00 - dividar - INFO - Started divider serverd
+14:25:00 - werkzeug - WARNING -  * Debugger is active!
+14:25:00 - werkzeug - INFO -  * Debugger PIN: 754-510-235
+14:25:11 - dividar - INFO - Started divider serverd
+14:25:12 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+14:25:12 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+14:25:12 - werkzeug - INFO -  * Restarting with stat
+14:25:13 - dividar - INFO - Started divider serverd
+14:25:13 - werkzeug - WARNING -  * Debugger is active!
+14:25:13 - werkzeug - INFO -  * Debugger PIN: 754-510-235
+14:26:00 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikit\\Documents\\GitHub\\Python_Advenced\\mod6\\task2.py', reloading
+14:26:00 - werkzeug - INFO -  * Restarting with stat
+14:26:02 - dividar - INFO - Started divider serverd
+14:26:02 - werkzeug - WARNING -  * Debugger is active!
+14:26:02 - werkzeug - INFO -  * Debugger PIN: 754-510-235
+14:26:56 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikit\\Documents\\GitHub\\Python_Advenced\\mod6\\task2.py', reloading
+14:26:56 - werkzeug - INFO -  * Restarting with stat
+14:26:58 - dividar - INFO - Started divider serverd
+14:26:58 - werkzeug - WARNING -  * Debugger is active!
+14:26:58 - werkzeug - INFO -  * Debugger PIN: 754-510-235
+14:27:59 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikit\\Documents\\GitHub\\Python_Advenced\\mod6\\task2.py', reloading
+14:27:59 - werkzeug - INFO -  * Restarting with stat
+14:28:01 - dividar - INFO - Started divider serverd
+14:28:01 - werkzeug - WARNING -  * Debugger is active!
+14:28:01 - werkzeug - INFO -  * Debugger PIN: 754-510-235
+14:28:13 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikit\\Documents\\GitHub\\Python_Advenced\\mod6\\task2.py', reloading
+14:28:13 - werkzeug - INFO -  * Restarting with stat
+14:28:15 - dividar - INFO - Started divider serverd
+14:28:15 - werkzeug - WARNING -  * Debugger is active!
+14:28:15 - werkzeug - INFO -  * Debugger PIN: 754-510-235
+14:30:06 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikit\\Documents\\GitHub\\Python_Advenced\\mod6\\task2.py', reloading
+14:30:06 - werkzeug - INFO -  * Restarting with stat
+14:30:07 - dividar - INFO - Started divider serverd
+14:30:07 - werkzeug - WARNING -  * Debugger is active!
+14:30:07 - werkzeug - INFO -  * Debugger PIN: 754-510-235

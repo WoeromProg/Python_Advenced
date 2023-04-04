@@ -1,0 +1,63 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+2023-04-03 21:43:26,095 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-03 21:43:26,095 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-04-03 21:43:45,999 - __main__ - DEBUG - Request 4 from 1
+2023-04-03 21:43:46,000 - bank - ERROR - Exception on /bank_api/1/4 [GET]
+Traceback (most recent call last):
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\nikit\Documents\GitHub\Python_Advenced\mod6\bank.py", line 19, in bank_api
+    with open(branch_card_file_name, "r") as fi:
+FileNotFoundError: [Errno 2] No such file or directory: 'bank_data/1.csv'
+2023-04-03 21:43:46,002 - __main__ - ERROR - Handled uncaught exception
+2023-04-03 21:43:46,004 - __main__ - ERROR - Tried to access bank_data/1.csv. Exception info: No such file or directory
+2023-04-03 21:43:46,005 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2023 21:43:46] "[35m[1mGET /bank_api/1/4 HTTP/1.1[0m" 500 -
+2023-04-03 21:45:00,225 - dividar - INFO - Started divider serverd
+2023-04-03 21:45:00,263 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-03 21:45:00,263 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-04-03 21:45:00,269 - werkzeug - INFO -  * Restarting with stat
+2023-04-03 21:45:02,000 - dividar - INFO - Started divider serverd
+2023-04-03 21:45:02,022 - werkzeug - WARNING -  * Debugger is active!
+2023-04-03 21:45:02,027 - werkzeug - INFO -  * Debugger PIN: 754-510-235
+2023-04-03 21:45:07,304 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2023 21:45:07] "[33mPOST /divide/ HTTP/1.1[0m" 404 -
+2023-04-03 21:45:16,070 - dividar - INFO - Started divider serverd
+2023-04-03 21:45:16,105 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-03 21:45:16,105 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-04-03 21:45:16,109 - werkzeug - INFO -  * Restarting with stat
+2023-04-03 21:45:17,461 - dividar - INFO - Started divider serverd
+2023-04-03 21:45:17,483 - werkzeug - WARNING -  * Debugger is active!
+2023-04-03 21:45:17,488 - werkzeug - INFO -  * Debugger PIN: 754-510-235
+2023-04-03 21:45:24,423 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2023 21:45:24] "[33mPOST /divide/ HTTP/1.1[0m" 404 -
+2023-04-03 21:45:25,659 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2023 21:45:25] "[33mPOST /divide/ HTTP/1.1[0m" 404 -
+2023-04-03 21:46:10,480 - dividar - INFO - Started divider serverd
+2023-04-03 21:46:10,524 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-03 21:46:10,524 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-04-03 21:46:10,529 - werkzeug - INFO -  * Restarting with stat
+2023-04-03 21:46:11,894 - dividar - INFO - Started divider serverd
+2023-04-03 21:46:11,915 - werkzeug - WARNING -  * Debugger is active!
+2023-04-03 21:46:11,918 - werkzeug - INFO -  * Debugger PIN: 754-510-235
+2023-04-03 21:46:18,415 - dividar - DEBUG - Form is valid. a=5, b=1
+2023-04-03 21:46:18,416 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2023 21:46:18] "POST /divide/ HTTP/1.1" 200 -
+2023-04-03 21:46:39,856 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikit\\Documents\\GitHub\\Python_Advenced\\mod6\\task1.py', reloading
+2023-04-03 21:46:40,054 - werkzeug - INFO -  * Restarting with stat
