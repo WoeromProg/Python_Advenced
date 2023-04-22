@@ -8,7 +8,7 @@ logger = logging.getLogger('subprocess_utils')
 
 
 def get_kernel_version() -> str:
-    logger.info('Start working')
+    logger.info('Start calling subprocess_utils')
     command = shlex.split('uname -a')
     global KERNEL_VERSION
     if KERNEL_VERSION is None:

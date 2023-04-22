@@ -8,7 +8,7 @@ GET_IP_URL = 'https://api.ipify.org?format=json'
 
 
 def get_ip_address() -> str:
-    logger.debug('Start working')
+    logger.debug('Start getting IP address')
     start = time.time()
     try:
         ip = requests.get(GET_IP_URL).json()['ip']
