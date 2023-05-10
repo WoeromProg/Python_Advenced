@@ -1,0 +1,2 @@
+Много ко многим: (movie и movie_direction), (movie_direction и director)
+Один ко многим: (movie_cast и actors), (movie_cast и movie), (movie и oscar_awarded)
