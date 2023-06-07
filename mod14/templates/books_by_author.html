@@ -1,0 +1,32 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--  <head>-->
+<!--    <title>Books by Author</title>-->
+<!--  </head>-->
+<!--  <body>-->
+<!--    <h1>Books by {{ author }}</h1>-->
+<!--    <ul>-->
+<!--      {% for book in books %}-->
+<!--        <li>{{ book[1] }}</li>-->
+<!--      {% endfor %}-->
+<!--    </ul>-->
+<!--  </body>-->
+<!--</html>-->
+{% extends "base.html" %}
+{% block content %}
+<form method="POST">
+   <p>{{ form.author.label }} {{ form.author() }}</p>
+
+  <div class="button-section">
+    <input type="submit" name="Add new book" />
+  </div>
+</form>
+<body>
+    <h1>Books by Author</h1>
+    <ul>
+        {% for book in books %}
+        <li>{{ book }} by {{ aut }}</li>
+        {% endfor %}
+    </ul>
+</body>
+{% endblock %}

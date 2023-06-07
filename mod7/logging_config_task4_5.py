@@ -1,7 +1,7 @@
 from logging.handlers import TimedRotatingFileHandler
-from ASCll import ASCIIFilter
+from ASCll_task7 import ASCIIFilter
 from task3HandlerLevels import task3HandlerLevels
-
+#config_JSON
 dict_config = {
     "version": 1,
     "filters": {
@@ -50,7 +50,15 @@ dict_config = {
         "utils_Logger": {
             "level": "INFO",
             "handlers": ['rotating']
-        }
+        },
+        "unitsFileLogger": {
+                "level": "INFO",
+                "handlers": ['rotating']
+            },
+        "httpLogger": {
+                "level": "DEBUG",
+                "handlers": ['http_handler']
+            }
     }
 
     # "filters": {},
