@@ -4,6 +4,7 @@ from task1_utils import *
 from logging_config_task4_5 import dict_config
 from logging import config
 
+logging.config.dictConfig(dict_config)
 logger = logging.getLogger('app_Logger')
 
 
@@ -30,5 +31,5 @@ def calc():
 
 
 if __name__ == '__main__':
-    logging.config.dictConfig(dict_config)
+
     calc()

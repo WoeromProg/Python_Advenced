@@ -1,10 +1,18 @@
 import getpass
 import hashlib
+import json
 import logging
 import os
 import re
 
-logger = logging.getLogger("password_checker ")
+#task3
+class JsonAdapter(logging.LoggerAdapter):
+    def process(self, msg, kwargs):
+        msg = json.dumps(msg, ensure_ascii=False)
+        return msg, kwargs
+
+
+logger = JsonAdapter(logging.getLogger('password_checker'))
 
 
 def read_book(filename):
@@ -16,7 +24,7 @@ def read_book(filename):
     return words
 
 
-file = read_book('ENRUS.TXT')
+file = read_book('ENandRUS.TXT')
 
 
 def is_strong_password(password: str):

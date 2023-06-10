@@ -1,7 +1,7 @@
 import logging
 import sys
 from task3HandlerLevels import task3HandlerLevels
-#ConfigMethod
+
 def logging_config():
     log_format = '%(levelname)s | %(name)s | %(asctime)s | %(lineno)d | %(message)s'
     formatter = logging.Formatter(log_format)

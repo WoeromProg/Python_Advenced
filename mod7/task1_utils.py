@@ -1,9 +1,10 @@
 import logging
 from logging_config_task4_5 import dict_config
 from logging import config
-#app
-logger = logging.getLogger('utils_Logger')
+
 logging.config.dictConfig(dict_config)
+logger = logging.getLogger('utils_Logger')
+
 
 logger.debug('Тест')
 logger.info("Test")

@@ -24,7 +24,7 @@ dict_config = {
             "stream": "ext://sys.stdout"
         },
         "file": {
-            "class": "logging.FileHandler",
+            #"class": "logging.FileHandler",
             "()": task3HandlerLevels,
             "level": "DEBUG",
             "formatter": "base",
@@ -44,7 +44,7 @@ dict_config = {
     "loggers": {
         "app_Logger": {
             "level": "DEBUG",
-            "handlers": ["file", "console"]
+            "handlers": ["console", "file"]
             # "propagate": False,
         },
         "utils_Logger": {
